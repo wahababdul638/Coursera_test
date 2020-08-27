@@ -32,6 +32,10 @@ section>h2 {
     height: 45px;
     padding-top: 10px;
 }
+p {
+    text-align: justify;
+    font-weight: bold;
+}
 section.Chic{
   background-color: #00FF00;
 }
@@ -51,7 +55,43 @@ section.Sus>h2 {
     color: white;
     background-color: black;
 }
-
+section.Ric{
+    background-color: cyan;
+}
+section.Ric>h2 {
+    background-color: red;
+}
+section.Piz{
+    background-color: green;
+}
+section.Piz>h2 {
+    background-color: blue;
+}
+section.Bur {
+    background-color: orange;
+}
+section.Bur>h2 {
+    background-color: purple;
+    color: white;
+}
+section.Veg {
+    background-color: #00FF00;
+}
+section.Veg>h2 {
+    background-color: #00FFFF;
+}
+section.Dir {
+    background-color: #0076ff;
+}
+section.Dir>h2 {
+    background-color: #786500;
+}
+section.Sta {
+    background-color: #768400;
+}
+section.Sta>h2 {
+    background-color: #985684;
+}
 section>p {
     padding: 40px 15px 15px 15px;
 }
