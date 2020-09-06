@@ -7,7 +7,7 @@
 // var max = new Dog("Max", "Buddy");
 // max.bark(); 
 
-var names2 = ["Yaakov", "Jhon", "Joe"];
+//var names2 = ["Yaakov", "Jhon", "Joe"];
 
 // var myObj = {
 	// name: "Yaakov",
@@ -18,6 +18,14 @@ var names2 = ["Yaakov", "Jhon", "Joe"];
 	// console.log(prop + ": " + myObj[prop])
 // }
 
-for (var name in names2) {
-	console.log("Hello " + names2[name]);
+//for (var name in names2) {
+	//console.log("Hello " + names2[name]);
+ //}
+function makeMultiplier (multiplier) {
+	return (
+		function (x) {
+			return multiplier * x;
+
+		}
+	);
 }
